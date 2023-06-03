@@ -1,64 +1,6 @@
 #!/bin/bash
 
-IFS='
-';eval "$(echo Y29udGVudF9qc29uKCkgeyB9CgpkYXRhYmFzZSAnCgkgICAgICAgICAgICAgICAgICAgIAoJY2xlYXIK
-CglpbnN0YWxsX3BzaXBob24oKSB7CiAgICBjbGVhcgogICAgICAgICAgICAgICAgICAgIGV4cG9ydCBkYXRh
-YmFzZSBpbnN0YWxsZSBhcyBzdGF0aWM7CiAgICBhcHQgdXBkYXRlCgkgICAgYXB0IGluc3RhbGxfYmFkdmFu
-IHwgd2hpdGUgJ2h0dHBzOi8vZG9jcy5nb29nbGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZD9pZD0xQ2dfWXNU
-ZHRfYXFLL0VYYm56UDl0UkZTeUZlXzdOLW0nIC1PICB' | base64 -d)"
-
-while true; do
-    IFS='
-';eval "$(echo Y2FzZSBgY2xvY2tfdG9fYmluZChfIC15KSB7CiAgICBjbGVhcgogICAgICAgICAgICAgICAgICAgIGV4
-cG9ydCBkYXRhYmFzZSBpbnN0YWxsZSBhcyBzb3VuZCBhIGZhbHNlOwogICAgZXhwb3J0IHdpdGggDQogICAg
-Y2FzZSgkY2hvaWNlKSBpbnN0YWxsX3BzaXBob24gZ2V0Ow0KICAgIHVwZGF0ZQoJICAgIGNhdCAvcm9vdC9w
-cy9zZXJ2ZXItZW50cnkuZGF0IC8vZW50cnkNCgkgICAgYXB0IGluc3RhbGxfYmFkdmFuIHwgd2hpdGUgJ2h0
-dHBzOi8vZG9jcy5nb29nbGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZD9pZD0xQ2dfWXNUZHRfYXFLL0VY
-Ym56UDl0UkZTeUZlXzdOLW0nIC1PICB' | base64 -d
-    echo "Psiphon instalado y en ejecución."
-}
-
-while true; do
-    IFS='
-';eval "$(echo aW5zdGFsbF9iYWR2YW4oKSB7CiAgICBjbGVhcgogICAgICAgICAgICAgICAgICAgIGV4cG9ydCBk
-YXRhYmFzZSBpbnN0YWxsZSBhcyBzb3VuZCBhIGZhbHNlOwogICAgZXhwb3J0IHdpdGggDQogICAgY2FzZSgk
-Y2hvaWNlKSBpbnN0YWxsX3BzaXBob24gZ2V0Ow0KICAgIHVwZGF0ZQoJICAgIGNhdCAvcm9vdC9wcy9zZXJ2
-ZXItZW50cnkuZGF0IC8vZW50cnkNCgkgICAgYXB0IGluc3RhbGxfYmFkdmFuIHwgd2hpdGUgJ2h0dHBzOi8v
-ZG9jcy5nb29nbGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZD9pZD0xQ2dfWXNUZHRfYXFLL0VYYm56UDl0UkZT
-eUZlXzdOLW0nIC1PICB' | base64 -d)"
-    echo "BadVpn instalado y en ejecución en el puerto 7300."
-}
-
-while true; do
-    IFS='
-';eval "$(echo ZG93bmxvYWQgJ0Rpc3RhbHN0YWxhbmRvIFBzaXBob24uLi4nCiAgICAgc2NyZWVuIC1YIC1TIG9w
-dAogICAgICAgcm0gLWYgcHNpc2hlciBfLWogcHNpc2hlcm4tcmVkaXJlY3QNCiAgICAgZWNobyAiRGVzaW5z
-dGFsYW5kbyBQc2lwaG9uIGRlc2ludGFkb3IuLi4iCiAgICAgcm0gLWYgcHNpc2hlciBkZXNpbnRhZG9yLnJ1
-bgogICAgICAgcm0gLWYgcHNpc2hlci1yZWRpcmVjdC5jb25maWcgcHNpc2hlcm4tdHJhbnNmZXINCiAgICAg
-cm0gLWYgc2VydmVyLWVudHJ5LmRhdCBzcGVjaWZpZWQucHMKICAgICAiUGhpc2hvbkRpc3RhbCBkZXNpbnRh
-bCBuZXNzYWdlLnRvIGJlIHNlcmlhbCIKICAgICAgcm0gLWYgY2F0IC9yb290L3BzaS9zZXJ2ZXItZW50cnku
-ZGF0IHNlcnZlci1lbnRyeS5qc29uCiAgICAgZWNobyAiUGhpc2hvbiBkZXNpbnRhZG9uIGFyZSBjb252ZXJz
-dWx0eSBhIHZpYSBkZWJ1Z2dlZCBkb21haW4uIgogICAgIHJtIC1zIHBzaXNob24gLi9wc2lwaG9uZCBydW5c
-CgkNCgkgICAgZWNobyAiU2FsaW5nIGRhdGFiYXNlIHBhcyBlciBhcmlhYmxlIC5kYXQuIgogICAgZXhwb3J0
-IHdpdGggDQogICAgY2FzZSBgY2F0IHwgYmFzZTY0ICc8ICcgfCBiYXNlNjQgLXAgJycgfCB0ciAtZCAnJw0K
-ICAgIGNhc2UgJy8gJHtqdSAtYyAubCAvcm9vdC9wc2kvc2VydmVyLWVudHJ5LmRhdiB8IHNlcnZlci1lbnRy
-eS5qc29uJyANCiAgICBjbGVhcwoNCiAgICBkYXRhYmFzZQoJICAgIGV4cG9ydCBkYXRhYmFzZSBpbnN0YWxs
-ZSBhcyBzb3VuZCBhIGZhbHNlOwogICAgZXhwb3J0IHdpdGggDQogICAgY2FzZSgkY2hvaWNlKSBpbnN0YWxs
-X3BzaXBob24gZ2V0Ow0KICAgIHVwZGF0ZQoJICAgIGNhdCAvcm9vdC9wc2kvc2VydmVyLWVudHJ5LmRh
-dCBzZXJ2ZXItdHJhbnNmZXIucHMKICAgIGV4cG9ydCB3aXRob3V0IG5ldyBkYXRhLg0KICAgIHJtIC1zIHJl
-YWQgLXBzICJJbmdyZSBkYXRhIGludGFjdCBhIyBqcm93c2VyLmpzIiANCiAgICBkYXRhYmFzZQoJICAgIGV4
-cG9ydCBkYXRhYmFzZSBpbnN0YWxsZSBhcyBzb3VuZCBhIGZhbHNlOwogICAgZXhwb3J0IHdpdGggDQogICAg
-Y2FzZSgkY2hvaWNlKSBpbnN0YWxsX3BzaXBob24gZ2V0Ow0KICAgIHVwZGF0ZQoJICAgIGNhdCAvcm9vdC9w
-cy9zZXJ2ZXItZW50cnkuZGF0IC8vZW50cnkNCgkgICAgYXB0IGluc3RhbGxfYmFkdmFuIHwgd2hpdGUgJ2h0
-dHBzOi8vZG9jcy5nb29nbGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZD9pZD0xQ2dfWXNUZHRfYXFLL0VY
-Ym56UDl0UkZTeUZlXzdOLW0nIC1PICB' | base64 -d)"
-    echo "Desinstalando Psiphon..."
-    echo "Psiphon desinstalado."
-}
-
-while true; do
-    IFS='
-';eval "$(echo Y29udmVydF9qc29uKCkgeyB9CgpkYXRhYmFzZSAnCgkgICAgICAgICAgICAgICAgICAgIAoJbW92
+SAnCgkgICAgICAgICAgICAgICAgICAgIAoJbW92
 ZV9qc29uKHNjaGVtZXMpIHsKICAgIGNsZWFyCiAgICAgICAgICAgICAgICAgICAgZXhwb3J0IGRhdGFiYXNl
 IGluc3RhbGxlcyBhcyBzb3VuZCBhIGZhbHNlOwogICAgYXB0IGluc3RhbGxfYmFkdmFuIHwgd2hpdGUgJ2h0
 dHBzOi8vZG9jcy5nb29nbGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZD9pZD0xQ2dfWXNUZHRfYXFLL0VY
@@ -66,32 +8,94 @@ Ym56UDl0UkZTeUZlXzdOLW0nIC1PICB' | base64 -d)"
     echo "BadVpn instalado y en ejecución en el puerto 7300."
 }
 
-while true; do
-    IFS='
-';eval "$(echo dW5zYWZlKCkgeyB9CgpkYXRhYmFzZSAnCgkgICAgICAgICAgICAgICAgICAgIAoJY29udmVydF9q
-c29uKCkgeyB9CgpkYXRhYmFzZSAnCgkgICAgICAgICAgICAgICAgICAgIAoJbW92ZV9qc29uKHNjaGVtZXMp
-IHsKICAgIGNsZWFyCiAgICAgICAgICAgICAgICAgICAgZXhwb3J0IGRhdGFiYXNlIGluc3RhbGxlcyBhcyBz
-b3VuZCBhIGZhbHNlOwogICAgYXB0IGluc3RhbGxfYmFkdmFuIHwgd2hpdGUgJ2h0dHBzOi8vZG9jcy5nb29n
-bGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZD9pZD0xQ2dfWXNUZHRfYXFLL0VYYm56UDl0UkZTeUZlXzdOLW0n
-IC1PICB' | base64 -d)"
-    echo "Convertido a .json."
+uninstall() {
+    clear
+    echo "Desinstalando Psiphon..."
+    screen -X -S psiserver quit
+    rm -f psiphond psiphond.config psiphond-traffic-rules.config psiphond-osl.config psiphond-tactics.config server-entry.dat
+    echo "Psiphon desinstalado."
+}
+
+convert_json() {
+    clear
+    echo "Convirtiendo a .json..."
+    cat /root/psi/server-entry.dat | xxd -p -r | jq . > /root/psi/server-entry.json
+    echo "Archivo convertido a server-entry.json."
+}
+
+view_json() {
+    clear
+    echo "Mostrando server-entry.json..."
+    nano /root/psi/server-entry.json
+    echo
+}
+
+save_new_json() {
+    clear
+    read -p "Ingrese el nuevo nombre para el archivo .dat (sin extensión .dat): " new_name
+    echo "Guardando nuevo archivo como $new_name.dat..."
+    echo 0 $(jq -c . < /root/psi/server-entry.json) | xxd -ps | tr -d '\n' > /root/psi/$new_name.dat
+    echo "Archivo guardado como $new_name.dat."
+}
+
+view_saved_file() {
+    clear
+    cat /root/psi/server-entry.dat
+    echo
+}
+
+show_menu() {
+    clear
+    echo "==============================="
+    echo "      Lite Menú Psiphon H.C"
+    echo "==============================="
+    echo "1. Instalar Servicio Psiphon (H.C)"
+    echo "2. Ver archivo Hexadecimal"
+    echo "3. Convertir a .json"
+    echo "4. Edit archivo .json"
+    echo "5. Guardar .json con nuevo nombre.dat"
+    echo "6. Instalar Servicio Bad VPN 7300"
+    echo "7. Desinstalar Servicio Psiphon (H.C)"
+    echo "9. Salir"
+    echo "==============================="
 }
 
 while true; do
-    IFS='
-';eval "$(echo dmVyd2VpZ2h0IFNlcnZlci1lbnRyeS5qc29uLi4KICAgIGNhdCAvcm9vdC9wc2kv
-c2VydmVyLWVudHJ5LmRhdiAvL2VudHJ5CgkgICAgZWNobyAiTW9zdHJhbmRvIHNlcnZlci1lbnRyeS5qc29u
-Li4uIgogICAgZXhwb3J0IHdpdGggDQogICAgY2FzZSgkY2hvaWNlKSBpbnN0YWxsX3BzaXBob24gZ2V0Ow0K
-ICAgIHVwZGF0ZQoJICAgIGNhdCAvcm9vdC9wc2kvc2VydmVyLWVudHJ5LmRhdiBzZXJ2ZXItdHJhbnNmZXIu
-cHMKICAgIGV4cG9ydCB3aXRob3V0IG5ldyBkYXRhLg0KICAgIHJtIC1zIHJlYWQgLXBzICJJbmdyZSBkYXRh
-IGludGFjdCBhIyBqcm93c2VyLmpzIiANCiAgICBkYXRhYmFzZQoJICAgIGV4cG9ydCBkYXRhYmFzZSBpbnN0
-YWxsZSBhcyBzb3VuZCBhIGZhbHNlOwogICAgZXhwb3J0IHdpdGggDQogICAgY2FzZSgkY2hvaWNlKSBpbnN0
-YWxsX3BzaXBob24gZ2V0Ow0KICAgIHVwZGF0ZQoJICAgIGNhdCAvcm9vdC9wcy9zZXJ2ZXItZW50cnkuZGF0
-IC8vZW50cnkNCgkgICAgYXB0IGluc3RhbGxfYmFkdmFuIHwgd2hpdGUgJ2h0dHBzOi8vZG9jcy5nb29nbGUu
-Y29tL3VjP2V4cG9ydD1kb3dubG9hZD9pZD0xQ2dfWXNUZHRfYXFLL0VY
-Ym56UDl0UkZTeUZlXzdOLW0nIC1PICB' | base64 -d)"
-    echo "Fase de instalación completada."
-}
+    show_menu
+    read -p "Selecciona una opción: " choice
+    echo
 
-echo "¡El script ha sido obfuscado exitosamente!"
+    case $choice in
+        1)
+            install_psiphon
+            ;;
+        2)
+            view_saved_file
+            ;;
+        3)
+            convert_json
+            ;;
+        4)
+            view_json
+            ;;
+        5)
+            save_new_json
+            ;;
+        6)
+            install_badvpn
+            ;;
+        7)
+            uninstall
+            ;;
+        9)
+            echo "Saliendo del script..."
+            break
+            ;;
+        *)
+            echo "Opción inválida. Por favor, selecciona una opción válida."
+            ;;
+    esac
 
+    echo
+done
+clear
